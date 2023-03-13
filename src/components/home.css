@@ -1,0 +1,44 @@
+/*------------- post ------------------*/
+.display-posts{
+    margin: auto;
+    max-width: 50vw;
+
+}
+
+.post-contain{
+    align-items: center;
+    border: 1px solid gray;
+    margin: 2rem 0;
+    font-family: monospace;
+    padding: 2rem;
+    justify-content: center;
+    box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
+}
+.post-title{
+    
+    font-weight: 400;
+    justify-content: center;
+    font-size: 2rem;
+    text-transform: capitalize;
+    
+    
+}
+.post-body{
+    margin: 1rem 0;
+    opacity: .7;
+    font-size: .8rem;
+}
+.post-content{
+    font-size: 1.2rem;
+    font-family: monospace;
+    margin: 1rem 0;
+}
+
+.lower{
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+    opacity: .7;
+    font-weight: 500;
+    font-size: .6rem;
+}
